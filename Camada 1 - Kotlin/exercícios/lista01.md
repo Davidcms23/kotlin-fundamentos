@@ -2,7 +2,7 @@
 ## 1. Caixa eletrônico
 Crie uma função `sacar(valor: Int): String` que simula a dispensa de cédulas de um caixa eletrônico (considere notas de 100, 50, 20 e 10). Usando `while` e o operador `%`, calcule quantas cédulas de cada valor são necessárias e monte uma `String` de resultado (ex: `"2x100, 1x50, 1x10"`). Se o valor não for múltiplo de 10, retorne `"Valor inválido"`.
 
-(Resposta)[https://github.com/Davidcms23/kotlin-fundamentos/blob/main/Camada%201%20-%20Kotlin/exerc%C3%ADcios/ex01.kt]
+[Resposta](https://github.com/Davidcms23/kotlin-fundamentos/blob/main/Camada%201%20-%20Kotlin/exerc%C3%ADcios/ex01.kt)
 
 ## 2. Jogo de adivinhação (sem input real)
 Crie uma função `jogarAdivinhacao(secreto: Int, chutes: IntArray): String` que recebe o número secreto e um array fixo de tentativas (simulando um jogador). Percorra os chutes com `for`, e para cada um informe se é "Maior", "Menor" ou "Acertou!" — ao acertar, pare o loop (`break`) e retorne em quantas tentativas o jogador acertou.
