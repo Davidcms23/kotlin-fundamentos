@@ -61,3 +61,12 @@ No Kotlin, quando uma função não retorna nenhum valor útil (ou seja, ela ape
 - **É um objeto real:** Ao contrário do `void` tradicional, `Unit` é um tipo real com uma única instância (um objeto real no Kotlin).
 - **Opcional na escrita:** Você pode declarar `: Unit` explicitamente na assinatura da função, mas o Kotlin permite que você o **omita completamente**. Se você não especificar o tipo de retorno, o compilador já entende que é `Unit`.
 
+```kotlin
+fun imprimirAlerta(mensagem: String) {
+    println("*** ATENÇÂO: $mensagem ***")
+}
+
+fun main(){
+    imprimirAlerta("OI")
+}
+```
